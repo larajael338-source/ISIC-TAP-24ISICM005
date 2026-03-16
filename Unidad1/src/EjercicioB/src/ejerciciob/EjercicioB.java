@@ -1,28 +1,30 @@
+//JOHANNY JAEL FUENTES LARA 24ISICM005
+
 package ejerciciob;
 
-import javax.swing.*;
+import javax.swing.*;  // el * extrae todo sin limites 
 import java.awt.*;
 
 public class EjercicioB extends JFrame{
     
     public EjercicioB(){
-        setTitle("Mi segunda ventana - TAP");
-        setSize(600,400);
+        setTitle("Ventana de colores");
+        setSize(500,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         
         setLayout(new BorderLayout());  
         
         JPanel panelNorte = new JPanel();
-        panelNorte.setBackground(Color.pink);
+        panelNorte.setBackground(Color.BLUE);
         panelNorte.add(new JLabel("Panel norte"));
         
          JPanel panelCentral = new JPanel();
-        panelCentral.setBackground(Color.black);
+        panelCentral.setBackground(Color.CYAN);
         panelCentral.add(new JLabel ("Panel central"));
 
          JPanel panelSur = new JPanel();
-        panelSur.setBackground(Color.yellow);
+        panelSur.setBackground(Color.GREEN);
         panelSur.add(new JLabel ("Panel sur"));
 
          add(panelSur, BorderLayout.SOUTH);
@@ -38,7 +40,7 @@ public class EjercicioB extends JFrame{
     }
         
         
-        
+       //jpanel es el indicador  
         
         
     }
