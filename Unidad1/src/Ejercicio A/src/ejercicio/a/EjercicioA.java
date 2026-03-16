@@ -1,4 +1,4 @@
-
+//JOHANNY JAEL FUENTES LARA 24ISICM005
 package ejercicio.a;
 
 import javax.swing.JFrame;
@@ -7,8 +7,8 @@ import javax.swing.JFrame;
 public class EjercicioA extends JFrame{
 
     public EjercicioA (){
-        setTitle("Mi primera ventana - TAP");
-        setSize(600,400);
+        setTitle("UN GATITO EN LA VENTANA HACE MIAU :) .");
+        setSize(500,800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -18,6 +18,8 @@ public class EjercicioA extends JFrame{
      
         new EjercicioA();
     
+        
+        //jframe es la base 
     }
         
         
