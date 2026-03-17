@@ -7,21 +7,43 @@ public class EjercicioD {
   
     public static void main(String[] args) {
    
-  
-        final int A = 5;   //multiplicar a
-        final int C = 3;   //incremento c
-        final int M = 16;  //modulo m
-        int x = 4;         //semilla X0
         
-        //inicializamos los parametros formula Xn+1=(aXn + c) mod m
+      final int A = 5;   
+        final int C = 3;  
+        final int M = 14;  
+        int x = 6;         
+        
+        
 
-        System.out.println("Iter\tXn\tmod 16\tUn+1");
+        System.out.println("Iter\tXn\tmod 14\tUn+1");
         for (int i = 0; i < 6; i++) {
             double u = (double) x / M;
             int next = (A * x + C) % M;
             System.out.printf("%d\t%d\t%d\t%.4f%n", i, x, next, u);
             x = next;
-            }
+            }  
+        
+        
+        
+        
+        
+      
+ //  ES EL MISMO CODIGO Q EL DE ARRIBA PERO ESTE ESTA DOCUMENTADO     
+  
+//        final int A = 5;   //multiplicar a
+//        final int C = 3;   //incremento c
+//        final int M = 16;  //modulo m
+//        int x = 4;         //semilla X0
+//        
+//        //inicializamos los parametros formula Xn+1=(aXn + c) mod m
+//
+//        System.out.println("Iter\tXn\tmod 16\tUn+1");
+//        for (int i = 0; i < 6; i++) {
+//            double u = (double) x / M;
+//            int next = (A * x + C) % M;
+//            System.out.printf("%d\t%d\t%d\t%.4f%n", i, x, next, u);
+//            x = next;
+//            }
 
        
         
